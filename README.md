@@ -16,7 +16,7 @@ EM DESENVOLVIMENTO
 </p>
 <h2 id="sobre"> Sobre </h2>
 
-Projeto Site Advogados
+Projeto Site LCW
 
 <br />
 
