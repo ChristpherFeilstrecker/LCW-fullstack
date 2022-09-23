@@ -1,0 +1,150 @@
+@import "../../../../StyledGlobalColor.css";
+
+#intro-section-5 {
+    min-height: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+    gap: 1rem;
+    background: url('../../../../images/predios.jpg') center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.title-container-intro-section-5 {}
+
+.title-intro-section-5 {
+    color: black;
+    font-size: 3rem;
+    background-color: rgb(255, 255, 255, 0.8);
+    border-radius: 1rem;
+    font-size: 600;
+}
+
+.body-container-intro-section-5 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 70%;
+}
+
+.collum-container-intro-section-5 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.service-container-intro-section-5 {
+    background-color: rgb(255, 255, 255, 0.8);
+    color: black;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 15rem;
+    height: 13rem;
+    border: 1px solid rgb(190, 188, 188);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 400;
+    gap: 0.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.service-container-intro-section-5:hover {
+    background-color: rgb(206, 200, 200, 0.5);
+}
+
+.serviceimg-section-5 {
+    height: 80%;
+    max-width: 100%;
+}
+
+@media (max-width: 1000px) {
+
+    .body-container-intro-section-5 {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        width: 90%;
+    }
+
+    .service-container-intro-section-5 {
+        background-color: rgb(255, 255, 255, 0.8);
+        color: black;
+        padding: 2vw;
+        border-radius: 1rem;
+        width: 25vw;
+        height: 23vw;
+        border: 1px solid rgb(190, 188, 188);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        font-size: 2.5vw;
+        font-weight: 400;
+        gap: 0.5rem;
+        text-align: center;
+        margin-bottom: 2vw;
+    }
+
+    
+}
+
+@media (max-width: 600px) {
+
+    #intro-section-5 {
+        min-height: 30rem;
+    }
+
+    .service-container-intro-section-5 {
+    background-color: rgb(255, 255, 255, 0.8);
+    color: black;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 13rem;
+    height: 11rem;
+    border: 1px solid rgb(190, 188, 188);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 400;
+    gap: 0.2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.collum-container-intro-section-5 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.title-intro-section-5 {
+    font-size: 8vw;
+}
+}

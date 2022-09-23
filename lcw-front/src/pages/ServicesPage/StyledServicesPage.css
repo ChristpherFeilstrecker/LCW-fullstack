@@ -1,0 +1,229 @@
+
+.body-ActingPage {
+    padding-top: 200px;
+    min-height: 700px;
+    display: flex;
+    align-items: flex-start;
+    color: white;
+    overflow: hidden;
+    background: url('../../images/predios.jpg') center center no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-left: 4rem;
+    gap: 10rem;
+    padding-bottom: 2rem;
+}
+
+.buttons-ActingPage {
+    background-color: rgba(221, 218, 213, 0.2);
+
+
+}
+
+.area-box-ActingPage {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 20vw;
+    padding: 0.8rem 0;
+    gap: 0.8rem;
+    cursor: pointer;
+
+}
+
+.area-box-ActingPage:hover {
+    background-color: azure;
+}
+
+.img-icon-ActingPage {
+    width: 3vw;
+}
+
+.img-text-ActingPage {
+    font-size: 1vw;
+    padding-right: 2rem;
+    font-weight: 600;
+    color: black;
+}
+
+.container-initial-text {
+    width: 20vw;
+    margin-left: 4%;
+    text-align: center;
+    text-shadow: 0.2em 0.2em 0.2em black;
+    font-family: 'PT Sans Narrow', sans-serif;
+   
+}
+
+.initial-text {
+    font-size: 4vw;
+}
+
+.container-acting-text{
+    background-color: rgba(55, 56, 56, 0.7);
+    width: 70%;
+    margin-left: 10%;
+    padding: 2rem;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    font-family: 'PT Sans Narrow', sans-serif;
+}   
+
+.acting-title{
+    font-size: 2vw;
+}
+
+.acting-text{
+    font-size: 1.5vw;
+}
+
+.services-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+
+}
+
+.container-imgs{
+    display: flex;
+    background-color: rgba(55, 56, 56, 0.7);
+    width: 80%;
+    border-radius: 2rem;
+    justify-content: flex-end;
+}
+.img-service{
+    width: 20vw;
+    height: 10vw;
+    border-radius: 2rem;
+}
+
+.container-imgs{
+    margin-top:2rem;
+    padding:0.5rem;
+    gap: 1rem;
+}
+
+.img-text{
+    color:white;
+    font-size: 1.2rem;
+    text-align: end;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.box-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.title-text-amostras{
+    font-size: 1.5vw;
+    text-align: end;
+}
+
+@media (max-width: 800px) {
+    .services-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      width: 90%;
+    margin-left: -8rem;
+    }
+
+    .container-imgs{
+        width: 90%;
+    }
+
+    .container-acting-text{
+        background-color: rgba(55, 56, 56, 0.7);
+        width:70%;
+        margin-left: 0%;
+        padding: 2rem;
+        text-align: center;
+        text-shadow: 0.1em 0.1em 0.2em black;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+
+   .title-text-amostras{
+    font-size: 4vw;
+   }
+
+   .img-service{
+    border-radius: 0.5rem;
+}
+}
+
+
+@media (max-width: 530px) {
+    .body-ActingPage {
+        flex-direction: column;
+         padding-top: 120px;
+         padding-left: 0;
+         width: 100vw;
+         gap: 2rem;
+    }
+   
+    .services-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      width: 90%;
+    margin-left: 2rem;
+    }
+
+    .buttons-ActingPage{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+    padding: 0 2rem;
+       gap: 0.5rem;
+background-color: rgb(247, 250, 252, o.1);
+    }
+
+    .area-box-ActingPage{
+        background-color: rgb(46, 45, 45,0.3);
+        width: 6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-text-ActingPage {
+        font-size: 1.5vw;
+        padding-right: 0rem;
+        font-weight: 600;
+        color: black;
+    }
+    
+.img-text{
+    font-size: 2vw;
+}
+
+}
+
+@media (max-width: 430px) {
+    .body-ActingPage {
+        padding-left: 1rem;
+        
+    }
+
+}
+
+@media (max-width: 330px) {
+    .body-ActingPage {
+        padding-left: 1rem;
+        
+    }
+
+}
+
+@media (max-width: 270px) {
+    .body-ActingPage {
+        padding-left: 1rem;
+       
+    }
+
+}

@@ -1,0 +1,107 @@
+@import "../../../../StyledGlobalColor.css";
+
+#intro-section-4 {
+    min-height: 32vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+
+}
+
+.margin-top{
+    margin-top: 1rem;
+}
+
+.container-section4{
+    background-color: rgb(151, 148, 148,0.8);
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+
+.box-container-section4{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container-section4{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+.margin-top{
+    margin-top: 2vw;
+}
+
+.title-text-section4{
+    font-size: 3vw;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+
+.box-container-video-section4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.btn-rigth-container-more{
+    text-shadow: 0.1em 0.1em 0.2em black;
+    cursor: pointer;
+}
+
+.btn-rigth-container-more:hover{
+color: rgb(19, 19, 21);
+}
+
+.logo-section-4{
+max-width: 10vw;
+max-height: 10vw;
+}
+
+.video-container:hover{
+    cursor: pointer;
+    background-color: rgb(134, 133, 133,0.5);
+   opacity: 0.7;
+}
+
+
+@media (max-width: 700px) {
+    #intro-section-4 {
+        min-height: 32vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        overflow: hidden;
+    
+    }
+
+    .box-container-video-section4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        gap: 2vw;
+        flex-wrap: wrap;
+    }
+
+    .logo-section-4{
+        max-width: 5rem;
+        max-height: 5rem;
+        }
+}

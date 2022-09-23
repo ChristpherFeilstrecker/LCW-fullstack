@@ -1,0 +1,107 @@
+@import "../../../../StyledGlobalColor.css";
+
+#intro-section-7{
+    min-height: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+    background: rgb(233, 222, 222); 
+    padding-bottom: 2rem;
+   
+}
+
+.text-container-intro-section-7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-intro-section-7{
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+}
+
+.text-intro-section-7{
+    color: rgb(83, 82, 82);
+    padding-top: 2rem;
+}
+
+.body-section-7{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    gap: 2rem;
+
+}
+
+.collum-section-7{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+
+}
+
+.collum2-section-7{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.text-body-section-7{
+    padding-top: 2rem;
+    color: black;
+}
+
+
+
+.name-section-7{
+    font-size: 1rem;
+    font-weight: 400;
+    color: blue;
+}
+
+.img-section-7{
+    width: 8rem;
+    border-radius: 50%;
+}
+@media (max-width: 570px) {
+    .img-section-7{
+        width: 25vw;
+        border-radius: 50%;
+    }
+
+    .name-section-7{
+        font-size: 3vw;
+        font-weight: 400;
+        color: blue;
+    }
+
+    .text-body-section-7{
+        padding-top: 4vw;
+        color: black;
+    }
+
+    .title-intro-section-7{
+        font-size: 5vw;
+        font-weight: 600;
+        color: black;
+    }
+
+    .collum-section-7{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        text-align: end;
+    }
+
+    .text-container-intro-section-7{
+        padding: 0 1rem;
+    }
+}

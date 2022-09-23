@@ -1,0 +1,99 @@
+@import "../../../../StyledGlobalColor.css";
+
+#intro-section-3 {
+    height: 32rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin-bottom: 2rem;
+    background: url('../../../../images/predios.jpg') center center no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container-text-intro-section-3{
+
+    height: 100%;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10rem;
+    gap: 2rem;
+    font-size: 1.5rem;
+    text-shadow: 
+               -1px -1px 0px rgb(250, 248, 248), 
+               -1px 1px 0px rgb(250, 248, 248),      
+                1px -1px 0px rgb(250, 248, 248),    
+                1px 0px 0px rgb(250, 248, 248);
+}
+
+.title-intro-section-3{
+    color: var(--principalcolor);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.btn-intro-section-3{
+    border:none;
+    background-color:var(--principalcolor) ;
+    width: 70%;
+    padding: 1rem 0;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-intro-section-3:hover{
+    background-color:grey;
+    color: yellow;
+}
+
+@media (max-width: 800px) {
+    .container-text-intro-section-3{
+        height: 100%;
+        width: 30rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 10vw;
+        gap: 2rem;
+        font-size: 1.5rem;
+    }
+    #intro-section-3 {
+        height: 30rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .container-text-intro-section-3{
+
+        height: 100%;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 10vw;
+        gap: 2rem;
+        font-size: 1.5rem;
+    }
+
+    #intro-section-3 {
+        height: 26rem;
+    }
+}
+@media (max-width: 450px) {
+    .container-text-intro-section-3{
+
+        height: 100%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 10vw;
+        gap: 2rem;
+        font-size: 1.5rem;
+    }
+}

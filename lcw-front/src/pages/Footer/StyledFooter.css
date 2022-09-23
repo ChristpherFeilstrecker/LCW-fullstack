@@ -1,0 +1,237 @@
+#footer {
+    color: #767779;
+    background-color: var(--principalcolor);
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container {
+    padding-left: 1.5vw;
+
+}
+
+.logo-footer {
+    width: 15rem;
+
+}
+
+.collum-footer {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.space-footer {
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 2000;
+}
+
+@media (max-width: 650px) {
+    #footer {
+        color: #767779;
+        background-color: var(--principalcolor);
+        height: 8rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+
+@media (max-width: 450px) {
+    .info-container {
+        font-size: 3vw;
+    }
+}
+
+
+/*             MODAL             */
+
+.modal-container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    background-color: rgb(0, 0, 0, 0.5);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.modal-container.mostrar {
+    display: flex;
+}
+
+.modal {
+    position: relative;
+    height: 400px;
+    width: 800px;
+    background-color: white;
+    animation: modal 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+@keyframes modal {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.btn-close-modal {
+    border-radius: 2px;
+    color: white;
+    background-color: red;
+    padding: 0 4px;
+    margin-right: -70vw;
+    cursor: pointer;
+}
+
+.text-modal {
+    text-align: end;
+    width: 30%;
+    font-size: 2vw;
+}
+
+.img-modal {
+    max-height: 100%;
+    max-width: 50%;
+}
+
+.carrosel{
+    width: 2400px;
+    height: 600px;
+    display: flex;
+    margin: 50px auto;
+    position: relative;
+    animation: slid 16s infinite;
+}
+
+@keyframes slid {
+    0%{
+        margin-left: 0;
+    }
+    29%{
+        margin-left: 0;
+    }
+    31%{
+        margin-left: -800px;
+    }
+    59%{
+        margin-left: -800px;
+    }
+    61%{
+        margin-left: -1600px;
+    }
+    90%{
+        margin-left: -1600px;
+    }
+    100%{
+        margin-left: 0;
+    }
+}
+
+.gallery {
+width: 800px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 1rem;
+}
+
+
+
+@media (max-width: 700px) {
+    .modal {
+        position: relative;
+        height: 400px;
+        width: 90vw;
+        background-color: white;
+        animation: modal 1s;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .text-modal {
+        text-align: end;
+        width: 20vw;
+        font-size: 2vw;
+    }
+    
+    .img-modal {
+        max-height: 100%;
+        max-width: 50vw;
+    }
+    .gallery {
+        width: 90vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        }
+
+        @keyframes slid {
+            0%{
+                margin-left: 0;
+            }
+            29%{
+                margin-left: 0;
+            }
+            31%{
+                margin-left: -90vw;
+            }
+            59%{
+                margin-left: -90vw;
+            }
+            61%{
+                margin-left: -180vw;
+            }
+            90%{
+                margin-left: -180vw;
+            }
+            100%{
+                margin-left: 0;
+            }
+        }
+}
+
+@media (max-width: 400px) {
+    .gallery {
+        flex-direction: column;
+    }
+
+    .text-modal {
+        text-align: end;
+        width: 60vw;
+        font-size: 4vw;
+    }
+
+    .img-modal {
+        max-height: 100%;
+        max-width: 70vw;
+    }
+}

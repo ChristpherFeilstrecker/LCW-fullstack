@@ -1,0 +1,50 @@
+{
+  "name": "api-lcw",
+  "version": "1.0.0",
+  "description": "api-lcw",
+  "main": "indexApp.js",
+  "scripts": {
+    "start": "tsc & node build/indexAppjs",
+    "build": "tsc",
+    "dev": "tsnd src/indexApp.ts"
+  },
+  "keywords": [
+    "api",
+    "api-lcw"
+  ],
+  "author": "Christopher Feilstrecker",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.7",
+    "@types/jest": "^25.2.3",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/knex": "^0.16.1",
+    "@types/uuid": "^8.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1",
+    "express-joi-validation": "^5.0.1",
+    "express-validator": "^6.14.2",
+    "jest": "^26.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.2",
+    "moment": "^2.27.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "node-static": "^0.7.11",
+    "pg": "^8.8.0",
+    "serve-static": "^1.15.0",
+    "ts-jest": "^26.1.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.6",
+    "uuid": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/multer": "^1.4.7",
+    "ts-node-dev": "^1.1.8"
+  }
+}
