@@ -1,5 +1,5 @@
 
-<h1 align="center" id="top">Projeto LCW Comunicaçãos: </h1>
+<h1 align="center" id="top"> LCW Comunicaçãos: </h1>
 
 <p align="center">
   <a href="#sobre">Sobre</a> &#xa0; | &#xa0; 
