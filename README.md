@@ -1,8 +1,4 @@
 
-
-EM DESENVOLVIMENTO
-
-
 <h1 align="center" id="top">Projeto LCW Comunicaçãos: </h1>
 
 <p align="center">
